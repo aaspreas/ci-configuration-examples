@@ -21,7 +21,7 @@ jobs:
 
     strategy:
       matrix:
-        release: [R2019B,R2020a,R2020b]
+        release: [R2020b,R2021a,R2021b,R2022a,R2022b,R2023a,R2023b]
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
